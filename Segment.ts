@@ -9,10 +9,6 @@ export default interface Segment {
     elevation_low: number
     start_latlng: number[]
     end_latlng: number[]
-    start_latitude: number
-    start_longitude: number
-    end_latitude: number
-    end_longitude: number
     climb_category: 0 | 1 | 2 | 3 | 4 | 5
     city: string
     state: string
